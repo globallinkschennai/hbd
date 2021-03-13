@@ -14,7 +14,7 @@ body{
     width: 700px;
 	height: 100px;
 	
-	
+	text-align: center;
 	position: absolute;
 	top:0;
 	bottom: 0;
@@ -23,6 +23,34 @@ body{
   	margin: auto;
 }
 
+
+
+
+
+
+.suprise
+{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+
+.surprise{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+padding-top: 30px;
+}
+
+.hap{
+    color: white;
+    text-decoration: none;
+    font-size: 37px;
+    text-align: center;
+}
 
 
 @media screen and (max-width:690px)
@@ -35,18 +63,47 @@ body{
         margin-bottom: 0;
     }
     .wish{
-        font-size: 45px;
+        font-size: 40px;
         color: white;
         font-family: Redressed , sans-serif;
-        width: 347px;
+        width: 100%;
         height: 10px;
         left: 0;
-        right: 0;
+        right: 8px;
         bottom: 90%;
-     
-
+        text-align: center;
+    
        
           
     }
+    .suprise
+{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
     
+
+}
+.surprise{
+    color: rgb(6, 13, 55);
+    text-decoration: none;
+    font-size: 7vw;
+    text-align: center;
+padding-top: 7vw;
+font-weight: 700;
+}
+
+
+.hap{
+    color: rgb(6, 13, 55);
+    text-decoration: none;
+    font-size: 9vw;
+    text-align: center;
+    font-weight: 700;
+}
+
+.body{
+    background-color: rgb(242, 231, 81);
+    background-image: none;
+}
 }
